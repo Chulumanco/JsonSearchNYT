@@ -6,9 +6,10 @@ var authKey = "b9f91d369ff59547cd47b931d8cbc56b:0:74623931";
 
 // These variables will hold the results we get from the user's inputs via HTML
 var queryTerm 	= "";
-var numResults 	= 0;
-var startYear 	= 0;
+let numResults 	= 0;
+let startYear 	= 0;
 var endYear		= 0;
+
 
 // Based on the queryTerm we will create a queryURL 
 var queryURLBase = "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=" + authKey + "&q=";
